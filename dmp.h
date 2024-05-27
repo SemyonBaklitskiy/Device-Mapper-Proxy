@@ -6,8 +6,8 @@
 /* Main structure for dmp driver */
 struct dmp_data {
 	struct dm_dev *dev;
-    struct device *bd_device;
-    struct device_attribute *dev_attr;
+	struct device *bd_device;
+	struct device_attribute *dev_attr;
 	unsigned long read_req_counter;
 	unsigned long write_req_counter;
 	unsigned long write_blocks_size;
