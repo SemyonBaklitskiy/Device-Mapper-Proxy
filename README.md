@@ -10,16 +10,18 @@
 
 ```
 git clone https://github.com/SemyonBaklitskiy/Device-Mapper-Proxy
+```
+2. Change directory to Device-Mapper-Proxy
+```
 cd Device-Mapper-Proxy
 ```
-
-2. Add executuon permissions for build_and_load.sh script
+3. Add executuon permissions for build_and_load.sh script
 
 ```
 sudo chmod +x build_and_load.sh
 ```
 
-3. Run script giving the compiler as an argument
+4. Run script giving the compiler as an argument
 
 ```
 ./build_and_load.sh gcc-12
