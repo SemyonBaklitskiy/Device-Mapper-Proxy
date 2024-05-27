@@ -19,4 +19,5 @@ sudo dd of=/dev/null if=/dev/mapper/dmp1 bs=4k count=1
 sudo dd of=/dev/null if=/dev/mapper/dmp1 bs=4k count=2
 sudo dd of=/dev/null if=/dev/mapper/dmp1 bs=8k count=1
 
-sudo cat /sys/block/dm-0/volumes
+
+sudo cat `sudo find /sys/devices/virtual -name "volumes"`
