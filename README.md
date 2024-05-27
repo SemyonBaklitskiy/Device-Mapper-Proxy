@@ -10,6 +10,7 @@
 
 ```
 git clone https://github.com/SemyonBaklitskiy/Device-Mapper-Proxy
+cd Device-Mapper-Proxy
 ```
 
 2. Add executuon permissions for build_and_load.sh script
