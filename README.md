@@ -1,5 +1,5 @@
 # Device mapper proxy
-## Technical requirements (Linux)
+## Requirements (Linux)
 1. Ubuntu 22.04.4 LTS
 2. Linux Kernel version 6.2 and above
 3. Compiler gcc-11 (gcc version 11.4.0) or gcc-12 (gcc version 12.3.0), better use gcc-12
